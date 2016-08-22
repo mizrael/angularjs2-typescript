@@ -1,6 +1,8 @@
 # Introduction
 This repo will serve as a template for a basic AngularJS 2 project written in Typescript.
-
+Gulp is configured to watch the .ts files and transpile them if a change occurs. 
+At the end of the first build, a simple webserver is created, pointing ad the /www/ folder.
+ 
 # Prerequisites
 * execute the following commands:
 ```
@@ -51,5 +53,5 @@ sudo typings install
 "main": "gulpfile.js":
 ```
 
-# Run the app
-cmd + shift + b
+# Run the build task
+in Visual Studio Code (on Mac): cmd + shift + b
